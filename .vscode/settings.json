@@ -1,0 +1,6 @@
+{
+    "vscode-open-files-in-directory.maxFiles": 20,
+    "vscode-open-files-in-directory.maxRecursiveDepth": 5,
+    "open-all-files.recursive": true,
+    "open-all-files.maxFilesWithoutConfirmation": 100
+}
