@@ -59,4 +59,17 @@
 			<language tag="en-GB">language/en-GB/com_banhangs.sys.ini</language>
 		</languages>
 	</administration>
+    <api>
+        <files folder="api">
+			<folder>src</folder>
+		</files>  
+    </api>
+  <plugins>
+     <plugin plugin="banhangs"  group="webservices">
+        <files folder="banhangs">
+        <file>banhangs.php</file>
+        <file>banhangs.xml</file>
+    </files>
+     </plugin>
+</plugins>    
 </extension>
