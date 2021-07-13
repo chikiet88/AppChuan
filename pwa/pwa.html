@@ -1,0 +1,23 @@
+<link rel="manifest" href="/manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Taza Skin Clinic">
+<meta name="theme-color" content="#2F3BA2" />
+<link rel="apple-touch-icon" href="/pwa/maskable_icon_x192.png">
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+        .then((reg) => {
+        });
+  });
+}
+</script> 
+<script>
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', function(event) {
+      e.preventDefault();
+      deferredPrompt = e;
+    });
+
+    </script>  
